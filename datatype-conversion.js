@@ -19,4 +19,17 @@ let isBooleanLogged = Boolean(isLoggedIn);
 
 let rollNum = 18;
 let strNum = String(rollNum);
-console.log(typeof (strNum));
+// console.log(typeof (strNum));
+
+/* Operations Start Here */
+
+// Convert Positive to Negative Value
+let value = 4;
+let negVal = -value;
+// console.log(negVal);
+
+// String Concatenation
+let str1 = "Amandeep";
+let str2 = " Singh";
+let combinedStr = str1 + str2;
+console.log(str1 + str2);
