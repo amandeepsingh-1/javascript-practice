@@ -36,3 +36,7 @@ let hello = function() {
 }
 hello();
 console.log(typeof (hello)); // Type is Function Object.
+
+// Memory: Memory are of two types:-
+// 1.) Stack Memory:- Used in Primitive Data Types. Changes do in Reference not in Original Values.
+// 2.) Heap Memory:- Used in Non-Primitive Data Types. Changes do in Original Values.
