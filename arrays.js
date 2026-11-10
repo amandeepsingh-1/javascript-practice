@@ -35,3 +35,18 @@ let sliceArr = arrDigits.slice(1, 3); // slice() will work from 1st argument and
 
 let spliceArr = arrDigits.splice(1, 3) // splice() will print from 1st argument to 2nd argument.
 // console.log("Splice Array:-", spliceArr);
+
+const courseName = ['React Js', 'Angular'];
+const desg = ['Web Designer', 'Full Stack Developer']
+const mergeArr = courseName.concat(desg);
+// console.log(mergeArr); // By concat(), it combines both arrays.
+
+const spreadArr = [...courseName, ...desg]
+// console.log(mergeArr); // By spread operator(...), it combines both arrays.
+
+const flatArr = [1, 2, [3, 4, [5, 6, 7]]];
+const flatNewArr = flatArr.flat(2); // By the use of flat(2) method, it provides new array upto the depth, which number sets in it.
+// console.log(flatNewArr);
+
+const fromArr = Array.from('Amandeep Singh'); // By from() method it converts the given type in Array.
+// console.log(fromArr);
